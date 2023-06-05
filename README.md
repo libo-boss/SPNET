@@ -14,6 +14,9 @@ tensorflow 2.6.2
 Dataset: 
 Under the SP-net/dataset folder, there are two datasets, one for normal spine (normal) and one for scoliosis spine (scoliosis). We used 8 datasets in our paper, this is only a part of the data and we will continue to upload other data.
 
+Dataset production: 
+If you have CT data that is licensed for use, you can produce the same dataset as we did. the TIGRE toolbox is introduced in the paper "TIGRE: a MATLAB-GPU toolbox for CBCT image reconstruction" by Ander Biguri et al. and we refer to this work to produce dataset. The installation link for this toolbox is: https://gitee.com/qiangge_666/TIGRE/blob/master/Frontispiece/MATLAB_installation.md. Both python and matlab installation methods are used, and we used matlab.
+
 
 Evaluation metrics: 
 We propose DisE_algorithm and SAc_alogrithm to evaluate the accuracy of 3D reconstruction, and provide the pseudo-code of these two algorithms.
