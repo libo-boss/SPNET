@@ -21,14 +21,17 @@ If you have CT data that is licensed for use, you can produce the same dataset a
 
 
 Evaluation metrics: 
+
 We propose DisE_algorithm and SAc_alogrithm to evaluate the accuracy of 3D reconstruction, and provide the pseudo-code of these two algorithms.
 
 
 Data enhancement: 
+
 We propose bone_feature_enhancement_algorithm to enhance data features, and provide python code and pseudo-code, as well as some image examples.
 
 
 Training details:
+
 1. Read the data. Use the new_try_to_read_image_and_csv.py in SP-net/code folder to read the data.
 2. Train the model using train.py in the SP-net/code folder.
 3.Use my_evaluation.py under SP-net/code folder to evaluate the model.
